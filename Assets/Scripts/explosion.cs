@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class explosion : MonoBehaviour {
-
+	public float time;
 	// Use this for initialization
 	void Start () {
-		Invoke ("Die", 2.3f); //calls the destry method in 2.3f time units
+		Invoke ("Die", time); //calls the destry method in 2.3f time units
 	}
 
 	void Die()
