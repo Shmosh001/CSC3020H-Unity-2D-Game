@@ -12,12 +12,6 @@ public class enemyMovement : MonoBehaviour {
 	public Transform borderPrefab;
 	public GameObject explosion;
 
-	void Start()
-	{
-		//Physics2D.IgnoreCollision(borderPrefab.GetComponent<Collider2D>(), gameObject.GetComponent<Collider2D>());
-
-	}
-
 	void OnTriggerEnter2D(Collider2D obj)
 	{
 		if (obj.tag.Equals("Player") == true) 
@@ -33,7 +27,6 @@ public class enemyMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		//Physics2D.IgnoreCollision(borderPrefab.GetComponent<Collider2D>(), gameObject.GetComponent<Collider2D>());
 
 		direction1 = player1.position - transform.position; //vector between player1 and enemy. Has direction.
 		direction2 = player2.position - transform.position; //vector between player2 and enemy. Has direction.

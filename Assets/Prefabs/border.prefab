@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 475710}
   - 212: {fileID: 21275710}
   - 61: {fileID: 6175710}
+  - 114: {fileID: 11409928}
   m_Layer: 0
   m_Name: border
   m_TagString: Border
@@ -40,6 +41,19 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: .340000004, y: 5}
   m_Center: {x: 0, y: 0}
+--- !u!114 &11409928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362a8d1753720ba4dbb65ec7d98cac9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 472308, guid: 6f03d56880581f149b92bd3633f0ce6b, type: 2}
+  respawnTime: 5
 --- !u!212 &21275710
 SpriteRenderer:
   m_ObjectHideFlags: 1
