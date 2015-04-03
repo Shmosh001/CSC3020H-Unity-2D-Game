@@ -5,6 +5,12 @@ public class playerMovement : MonoBehaviour {
 
 	public float speed;
 
+
+	void Start () 
+	{
+
+	}
+
 	// Update is called once per frame
 	void Update () {
 
@@ -24,6 +30,8 @@ public class playerMovement : MonoBehaviour {
 			transform.Rotate(0,0,-4); //rotate clockwise
 			rigidbody2D.angularVelocity = 0; //prevents player rotating without any keys being pressed after collision
 		}
+
+
 
 	}
 }
