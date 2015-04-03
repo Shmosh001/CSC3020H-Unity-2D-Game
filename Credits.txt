@@ -1,0 +1,9 @@
+Credit:
+
+Enemy Sprite: spshipsprite.png
+Artist: MillionthVector 
+Website: http://millionthvector.blogspot.com/p/free-sprites.html
+
+starfield background: starfield.png
+Website: http://gamedevelopment.tutsplus.com/articles/enjoy-these-totally-free-space-based-shoot-em-up-sprites--gamedev-2368
+

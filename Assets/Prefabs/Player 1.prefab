@@ -85,7 +85,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7275391201c03a4bb7a8c4a2d8db687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 8
 --- !u!114 &11452404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -97,8 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 526f09f11a714424eaa295334973e1d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
-  bulletPrefab: {fileID: 5083362, guid: 7304a15c8094ba144b96b2bfad24af3a, type: 2}
+  speed: 120
+  laserPrefab: {fileID: 5083362, guid: 7304a15c8094ba144b96b2bfad24af3a, type: 2}
+  rateOfFire: .200000003
+  threshold: 2
 --- !u!212 &21243424
 SpriteRenderer:
   m_ObjectHideFlags: 1
