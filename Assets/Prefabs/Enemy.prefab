@@ -38,7 +38,7 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174576}
   m_Mass: 1
-  m_LinearDrag: 5
+  m_LinearDrag: 4
   m_AngularDrag: .0500000007
   m_GravityScale: 0
   m_FixedAngle: 0
@@ -72,7 +72,7 @@ MonoBehaviour:
   player1: {fileID: 443424, guid: b0108d4df64817242888d88e140e9143, type: 2}
   player2: {fileID: 427202, guid: 386862211405b86459599d681f23f72d, type: 2}
   borderPrefab: {fileID: 475710, guid: a820619f61e720e4b889d2aa1e9269b7, type: 2}
-  explosion: {fileID: 112914, guid: 06e8b597a5a47644f97dee1fe5383b8f, type: 2}
+  explosion: {fileID: 148204, guid: 163bc8ad05a6ffb40b5d30a48a153eab, type: 2}
   explosionSound: {fileID: 8204162, guid: d88089b5c07eb77489963cf46666b562, type: 2}
 --- !u!212 &21274576
 SpriteRenderer:

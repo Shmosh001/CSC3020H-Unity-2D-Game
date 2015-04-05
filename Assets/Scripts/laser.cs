@@ -5,6 +5,16 @@ public class laser : MonoBehaviour
 {
 	public GameObject explosion;
 	public AudioSource explosionSound;
+	private winningCondition winningCondition;
+
+	void Start()
+	{
+		GameObject obj = GameObject.FindWithTag ("Winning Condition");
+		if (obj != null) 
+		{
+			winningCondition = obj.GetComponent<winningCondition>();
+		}
+	}
 
 	void OnTriggerEnter2D(Collider2D obj)
 	{
@@ -15,6 +25,7 @@ public class laser : MonoBehaviour
 			Instantiate(explosion, obj.transform.position, Quaternion.identity);
 			Destroy(obj.gameObject);
 			Destroy(this.gameObject);
+			winningCondition.addScore();
 
 
 		}

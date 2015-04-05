@@ -9,6 +9,8 @@ public class spawnScript : MonoBehaviour {
 	
 	// Variable to know how fast we should create new enemies
 	public float respawnTime;
+
+
 	
 	void Start() 
 	{  
@@ -29,6 +31,8 @@ public class spawnScript : MonoBehaviour {
 		// Create an enemy at the 'spawnPoint' position
 		Instantiate(enemyPrefab, spawnPoint, Quaternion.identity);
 	}
+
+
 
 
 }

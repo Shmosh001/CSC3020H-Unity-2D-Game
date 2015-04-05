@@ -6,7 +6,7 @@ public class player2Movement : MonoBehaviour {
 	public float speed;
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		
 		
 		if (Input.GetKey ("w")) //up key moves player in the y direction
