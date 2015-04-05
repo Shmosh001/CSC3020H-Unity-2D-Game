@@ -25,7 +25,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175710}
   m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106829}
-  m_LocalPosition: {x: .75999999, y: 10.1700001, z: 0}
+  m_LocalPosition: {x: .600000024, y: -1.62, z: 0}
   m_LocalScale: {x: 1, y: 4.30000019, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 362a8d1753720ba4dbb65ec7d98cac9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 472308, guid: 6f03d56880581f149b92bd3633f0ce6b, type: 2}
+  enemyPrefab: {fileID: 474576, guid: 6f03d56880581f149b92bd3633f0ce6b, type: 2}
   respawnTime: 5
 --- !u!212 &21275710
 SpriteRenderer:

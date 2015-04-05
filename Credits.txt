@@ -19,3 +19,10 @@ Player explosion: exp10.png
 Artist: Chris Van Wijmeersch
 Website: http://adg.devink.co.uk/index.php/resourcesmenu/item/84-free_spritesheets
 
+Menu Music: 8bit menu sound edit.mp3
+Original Artist: 8-bit Ninjas
+Website: http://freemusicarchive.org/music/8-bit_ninjas/party_in_space/kzz007_-_12_-_8-bit_ninjas_-_shiny_spaceship
+
+Player Explosion Sound Effect: explosion.mp3
+Website:http://www.freesfx.co.uk
+
