@@ -27,6 +27,7 @@ public class menu : MonoBehaviour
 			// On Click, load the first level.
 			// "Stage1" is the name of the first scene we created.
 			Application.LoadLevel("multiplayer");
+
 		}
 
 		// Draw a button to start the game

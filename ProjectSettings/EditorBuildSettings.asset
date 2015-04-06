@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/mainmenu.unity
   - enabled: 1
     path: Assets/multiplayer.unity
+  - enabled: 1
+    path: Assets/singleplayer.unity
